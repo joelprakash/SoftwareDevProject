@@ -1,0 +1,27 @@
+HOUNDS AND HARE:
+----------------
+
+
+The AI player represents the three Hounds (Represented by an O), which try to corner the Human player's Hare (represented by an X) 
+as it seeks to win by escaping them.
+
+The Hounds move first. Each player can move one piece one step in each turn. 
+The Hounds can only move forward or diagonally (left to right) or vertically (up and down). The Hare can move in any direction.
+The Hounds win if they "trap" the Hare so that it can no longer move.
+The Hare wins if it "escapes" (gets to the left of all the Hounds).
+If the Hounds move vertically ten moves in a row, they are considered to be "stalling" and the Hare wins.
+
+The following shows the board layout and shows the routes between squares on the board.
+
+	 ___     ___     ___
+	|   |   |   |   |   |
+	| O |---|   |---|   |	
+       /|___|\  |___|  /|___|\ 
+ ___  /  _|_  \  _|_  /  _|_  \  ___
+|   |/  |   |  \|   |/  |   |  \|   |
+| O |   |   |---|   |---|   |   | X |
+|___|\  |___|  /|___|\  |___|  /|___|
+      \  _|_  /  _|_  \  _|_  / 
+       \|   |/  |   |  \|   |/
+        | O |---|   |---|   |
+        |___|   |___|   |___|

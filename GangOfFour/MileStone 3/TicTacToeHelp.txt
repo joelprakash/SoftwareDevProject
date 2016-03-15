@@ -1,0 +1,13 @@
+RULES OF TIC-TAC-TOE:
+X always goes first. Players  alternate placing Xs and Os on the board until
+either (a) one player has three in a row, horizontally, vertically or diagonally
+or (b) all squares are filled. If a player is able to draw three Xs or three Os
+in a row, that player wins. If all the squares are filled and neither player has
+won, the game is considered a draw.
+HOW THE GAME LOOP WORKS
+The game loop will print the board, check if there is a winner. It will ask the
+Human player to make a move, it will then check if the move is valid, if it isn't
+it will reprompt the Human player. Otherwise it will continue on, print the board,
+check if there is a winner. If there is a winner, then the game will end, otherwise
+the AI will make a move.
+The game loop will continue to run until there is a winner or there's a draw.

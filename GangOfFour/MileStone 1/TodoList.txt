@@ -1,0 +1,3 @@
+
+-Write README file both on Github and for hand in
+-Try to optimize code for easier future maintenance
